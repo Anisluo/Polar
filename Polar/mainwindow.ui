@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1061</width>
+    <height>649</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">font: 10pt &quot;Microsoft YaHei UI&quot;;</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QWidget" name="widget" native="true"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1061</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu_file">
+    <property name="title">
+     <string>权限</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menu_coef">
+    <property name="title">
+     <string>参数</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menu_template">
+    <property name="title">
+     <string>模板</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menu_report">
+    <property name="title">
+     <string>报表</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menu_help">
+    <property name="title">
+     <string>帮助</string>
+    </property>
+   </widget>
+   <addaction name="menu_file"/>
+   <addaction name="menu_coef"/>
+   <addaction name="menu_template"/>
+   <addaction name="menu_report"/>
+   <addaction name="menu_help"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actiontest">
+   <property name="text">
+    <string>test</string>
+   </property>
+  </action>
+  <action name="actiontest_2">
+   <property name="text">
+    <string>test</string>
+   </property>
+  </action>
+  <action name="actiontest_3">
+   <property name="text">
+    <string>test</string>
+   </property>
+  </action>
+  <action name="actiontest_4">
+   <property name="text">
+    <string>test</string>
+   </property>
+  </action>
+  <action name="actiontest_5">
+   <property name="text">
+    <string>test</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
